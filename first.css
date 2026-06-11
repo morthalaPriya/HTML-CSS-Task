@@ -5,7 +5,7 @@ body {
     background-color: #eef8f6;
 }
 
-/* Navbar */
+
 
 .logo {
     font-size: 30px;
@@ -35,7 +35,7 @@ body {
     color: white;
 }
 
-/* Hero Section */
+
 
 .hero-section {
     background-color: #eef8f6;
@@ -73,7 +73,7 @@ body {
     margin-bottom: 30px;
 }
 
-/* Buttons */
+
 
 .start-btn {
     background-color: #0f766e;
@@ -93,7 +93,7 @@ body {
     padding: 12px 30px;
 }
 
-/* Small Text */
+
 
 .small-text {
     font-size: 14px;
@@ -101,7 +101,7 @@ body {
     font-weight: 500;
 }
 
-/* Dashboard Card */
+
 
 .dashboard-card {
     background-color: white;
@@ -110,7 +110,6 @@ body {
     box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
 }
 
-/* Browser dots */
 
 .top-dots {
     margin-bottom: 20px;
@@ -136,7 +135,7 @@ body {
     background-color: #28c840;
 }
 
-/* Graph */
+
 
 .graph-box {
     display: flex;
@@ -176,7 +175,7 @@ body {
     height: 170px;
 }
 
-/* Stats */
+
 
 .dashboard-card h4 {
     font-weight: bold;
@@ -188,7 +187,7 @@ body {
     font-size: 13px;
 }
 
-/* Company Section */
+
 
 .company-section {
     background-color: white;
@@ -208,7 +207,7 @@ body {
     font-weight: bold;
 }
 
-/* Mobile */
+
 
 @media screen and (max-width:768px) {
 
