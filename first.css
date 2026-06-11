@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef8f6;
+}
+
+/* Navbar */
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0f766e !important;
+}
+
+.nav-link {
+    color: #555 !important;
+    margin-right: 20px;
+}
+
+.signin {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.trial-btn {
+    background-color: #0f766e;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.trial-btn:hover {
+    color: white;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-color: #eef8f6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.badge-box {
+    display: inline-block;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.main-heading {
+    font-size: 65px;
+    font-weight: bold;
+    color: #111;
+    line-height: 1.2;
+}
+
+.main-heading span {
+    color: #0f766e;
+    font-style: italic;
+}
+
+.description {
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.start-btn {
+    background-color: #0f766e;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+.start-btn:hover {
+    color: white;
+}
+
+.demo-btn {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+/* Small Text */
+
+.small-text {
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+}
+
+/* Dashboard Card */
+
+.dashboard-card {
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Browser dots */
+
+.top-dots {
+    margin-bottom: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.red {
+    background-color: #ff5f57;
+}
+
+.yellow {
+    background-color: #ffbd2e;
+}
+
+.green {
+    background-color: #28c840;
+}
+
+/* Graph */
+
+.graph-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 180px;
+    margin-top: 30px;
+}
+
+.bar {
+    width: 45px;
+    background-color: #0f766e;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.b1 {
+    height: 60px;
+}
+
+.b2 {
+    height: 90px;
+}
+
+.b3 {
+    height: 120px;
+}
+
+.b4 {
+    height: 80px;
+}
+
+.b5 {
+    height: 140px;
+}
+
+.b6 {
+    height: 170px;
+}
+
+/* Stats */
+
+.dashboard-card h4 {
+    font-weight: bold;
+    color: #111;
+}
+
+.dashboard-card p {
+    color: gray;
+    font-size: 13px;
+}
+
+/* Company Section */
+
+.company-section {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.company-section h6 {
+    color: gray;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.company-section .col-md-2 {
+    color: gray;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Mobile */
+
+@media screen and (max-width:768px) {
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .main-heading {
+        font-size: 42px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .start-btn,
+    .demo-btn {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .dashboard-card {
+        margin-top: 40px;
+    }
+
+    .graph-box {
+        height: 130px;
+    }
+
+    .bar {
+        width: 25px;
+    }
+
+    .company-section .col-md-2 {
+        margin-bottom: 20px;
+    }
+}
