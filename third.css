@@ -3,7 +3,6 @@
     background-size: cover;
 }
 
-
 .main{
     text-align:center;
     padding:20px;
@@ -32,11 +31,7 @@
     color:black;
     font-family: "Playfair Display";
 }
-.para{
-    color:#2A9D8F;
-    font-weight:normal;
-    font-size:15px;
-}
+
 .design{
     color:#2c8b80;
     font-style:italic;
@@ -45,7 +40,13 @@
 .paragraph-1{
     color:gray;
 }
-  
+ 
+.para{
+    color:#2A9D8F;
+    font-weight:normal;
+    font-size:15px;
+}
+ 
 .heading-2{
     font-size:35px;
     font-weight:bold;
@@ -56,7 +57,6 @@
     border-radius:15px;
     padding:20px;
    
-    
 }
 
 .card-container-one{
@@ -71,15 +71,17 @@
     font-weight:bold;
 }
 
-.curve{
-    font-style:italic;
-}
-
 .line {
     width: 85%;
     height: 4px;
     background: #2c8b80;
     border-radius: 10px;
+}
+
+.bottom {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 .item {
@@ -91,17 +93,6 @@
     border-radius: 10px;
     margin-bottom: 12px;
 }
-
-.bottom {
-    background: white;
-    border-radius: 20px;
-    padding: 15px;
-}
-
-ul li{
-    list-style-type:none;
-}
-
 
 .button-3{
     color:rgb(38, 143, 132);
@@ -116,6 +107,14 @@ ul li{
     border-radius:20px;
     color:rgb(158, 155, 155);
     border:none;
+}
+
+.curve{
+    font-style:italic;
+}
+
+ul li{
+    list-style-type:none;
 }
 
 .stats {
@@ -140,6 +139,3 @@ ul li{
     font-size: 14px;
 }
 
-.down{
-    color:black
-}
