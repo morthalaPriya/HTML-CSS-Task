@@ -1,5 +1,12 @@
+.bg-color{
+    background-color:#eef8f6;
+    background-size: cover;
+}
+
+
 .main{
     text-align:center;
+    padding:20px;
 }
 
 .button-1{
@@ -7,35 +14,65 @@
     background-color:#E7F3F1;
     color:#2A9D8F;
     font-family: "DM Sans", sans-serif;
-    font-size:13px;
-    padding:5px;
+    font-size:10px;
+    padding:10px;
     margin-top:10px;
     margin-bottom:10px;
+    font-weight:bold;
 
 }
 
+.dot{
+    font-weight:bold;
+}
+  
 .heading-1{
     font-size:40px;
     font-weight:bold;
     color:black;
-    font-family: "Playfair Display", serif;
-
-
+    font-family: "Playfair Display";
 }
-.bg-color{
-    background-color:#eef8f6;
-    background-size: cover;
+.para{
+    color:#2A9D8F;
+    font-weight:normal;
+    font-size:15px;
+}
+.design{
+    color:#2c8b80;
+    font-style:italic;
+}
+
+.paragraph-1{
+    color:gray;
+}
+  
+.heading-2{
+    font-size:35px;
+    font-weight:bold;
 }
 
 .card-container{
-    background-color:whitesmoke;
-    height:400px;
+    background-color:Whitesmoke;
+    border-radius:15px;
+    padding:20px;
+   
     
 }
 
 .card-container-one{
-    background-color:azure;
+    background-color:White;
     padding:5px;
+    border-radius:10px;
+    width:200px;
+}
+
+.paragraph-3{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.curve{
+    font-style:italic;
 }
 
 .line {
@@ -49,14 +86,60 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
+    background: #e4faf7;
     padding: 10px 15px;
     border-radius: 10px;
     margin-bottom: 12px;
 }
 
 .bottom {
-    background: #f8f8f8;
-    border-radius: 12px;
+    background: white;
+    border-radius: 20px;
     padding: 15px;
+}
+
+ul li{
+    list-style-type:none;
+}
+
+
+.button-3{
+    color:rgb(38, 143, 132);
+    background-color:#a1e8e0;
+    border-radius:20px;
+    border:none;
+    
+}
+
+.button-4{
+    background-color:#dbebe9;
+    border-radius:20px;
+    color:rgb(158, 155, 155);
+    border:none;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    border-top: 1px solid #d9e5e3;
+    padding-top: 60px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    color:black;
+    font-size: 14px;
+}
+
+.down{
+    color:black
 }

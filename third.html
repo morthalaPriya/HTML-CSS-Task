@@ -13,47 +13,62 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="third.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
 
 <body>
     <div class="container bg-color">
         <div class="main">
-            <button class="button-1">. PLATFORM FEATURES</button>
-            <h1 class="heading-1">Built for clarity <br> at every scale</h1>
+            <button class="button-1"><span class="dot">.</span> PLATFORM FEATURES</button>
+            <h1 class="heading-1">Built for <span class="design">clarity</span> <br> at every scale</h1>
             <p class="paragraph-1">Every feature is designed to reduce friction and surface
                 what <br>matters. No bloat,no configuration maze.
             </p>
         </div>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-6 d-flex flex-column justify-content-center">
                 <div>
-                    <p>01- UNIFIED DASHBOARD</p>
-                    <h1>Every Metric, one calm surface</h1>
-                    <p>Pull data from any source into a single, composable view.
+                    <p class="para">01- UNIFIED DASHBOARD</p>
+                    <h1 class="heading-2">Every metric, one calm surface</h1>
+                    <p class="paragraph-1">Pull data from any source into a single, composable view.
                         Share live dashboards with stakeholders-no exports, no screenshots.
                     </p>
-                    <p>Drag-and-drop widget builder</p>
-                    <p>Real-time data sync across all sources</p>
-                    <p>Role-based sharing with granular permissions</p>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Drag-and-drop widget builder
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Real-time data sync across all sources
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Role-based sharing with permissions
+                        </li>
+
+                    </ul>
                 </div>
             </div>
             <div class="col-6">
                 <div class="card-container shadow">
                     <div class="d-flex flex-row p-5">
-                        <div class="card-container-one mr-5">
-                            <p>Monthly Revenue</p>
-                            <h1>$84.2k</h1>
+                        <div class="card-container-one m-1 p-2">
+                            <p class="paragraph-1">Monthly Revenue</p>
+                            <h1 class="paragraph-3">$84.2k</h1>
                             <div class="line"></div>
                         </div>
-                        <div class="card-container-one">
-                            <p>Active Users</p>
-                            <h1>12,481</h1>
+                        <div class="card-container-one m-1 p-2">
+                            <p class="paragraph-1">Active Users</p>
+                            <h1 class="paragraph-3">12,481</h1>
                             <div class="line"></div>
                         </div>
                     </div>
-                    <div class="bottom">
+                    <div class="bottom  mt-2">
 
                         <h5>Recent Activity</h5>
 
@@ -61,7 +76,7 @@
 
                             <span>Q3 Report synced</span>
 
-                            <button>Done</button>
+                            <button class="button-3">Done</button>
 
                         </div>
 
@@ -69,7 +84,7 @@
 
                             <span>Team review pending</span>
 
-                            <button>Active</button>
+                            <button class="button-3">Active</button>
 
                         </div>
 
@@ -77,7 +92,7 @@
 
                             <span>Analytics export</span>
 
-                            <button>Queued</button>
+                            <button class="button-4">Queued</button>
 
                         </div>
 
@@ -85,6 +100,200 @@
 
                 </div>
             </div>
+        </div>
+        <div class="row m-4">
+            <div class="col-6">
+                <div class="card-container shadow">
+                    <div class="bottom">
+
+                        <h5>Recent Activity</h5>
+
+                        <div class="item">
+
+                            <span>Weekly digest ->Slack</span>
+
+                            <button class="button-3">Running</button>
+
+                        </div>
+
+                        <div class="item">
+
+                            <span>Lead scored -> Notify sales</span>
+
+                            <button class="button-3">Running</button>
+
+                        </div>
+
+                        <div class="item">
+
+                            <span>Invoice due -> Alert CFO</span>
+
+                            <button class="button-3">Active</button>
+
+                        </div>
+
+                        <div class="item">
+
+                            <span>Report sync -> Drive</span>
+
+                            <button class="button-4">Paused</button>
+
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row p-5">
+                        <div class="card-container-one m-1 p-2">
+                            <p class="paragraph-1">Hours saved this month</p>
+                            <h1 class="paragraph-3">148h</h1>
+                            <div class="line"></div>
+                        </div>
+                        <div class="card-container-one m-1 p-2">
+                            <p class="paragraph-1">Flows</p>
+                            <h1 class="paragraph-3">24</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <div>
+                    <h1 class="heading-2">Routines that run <br> <span class="curve">themselves</span></h1>
+                    <p class="paragraph-1">Build automation flows with natural language. Clearwave <br>
+                        understands your intent and suggests the next step - no flowchart <br>
+                        diagrams needed
+                    </p>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Natural language automation builder
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            500+ pre-built trigger templates
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Full audit trail for every action
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 d-flex flex-column justify-content-center">
+                <div>
+                    <p class="para ">03 - TEAM COLLABORATION</p>
+                    <h1 class="heading-2">Comments, contenxt, <br> and <span class="curve">clarity</span></h1>
+                    <p class="paragraph-1">Annotate anything, assign tasks inline, and resolve conversations <br>
+                        without switching tabs. The work and discussion stay together
+                    </p>
+                   <ul>
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Inline comments on any data point
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Threading task assignments
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Real-time presence and live cursors
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card-container shadow">
+                    <div class="d-flex flex-row p-5">
+                        <div class="card-container-one mr-5 mb-2">
+                            <p>Online Now</p>
+                            <h5>A K M</h5>
+                            
+                        </div>
+                        <div class="card-container-one">
+                            <p>Open Task</p>
+                            <h5>37</h5>
+                        </div>
+                    </div>
+                    <div class="bottom">
+
+                        <h5>Recent comments</h5>
+
+                        <div class="item">
+
+                            <span>Alex -> Q3 chart update</span>
+
+                            <button class="button-3">Resolved</button>
+
+                        </div>
+
+                        <div class="item">
+
+                            <span>Kim -> Review needed</span>
+
+                            <button class="button-3">Open</button>
+
+                        </div>
+
+                        <div class="item">
+
+                            <span>Maya -> Approved & shipped</span>
+
+                            <button class="button-3">Done</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="stats">
+
+            <div class="stat">
+
+                <h2>17<span class="para">k+</span></h2>
+
+                <p class="down">Teams Worldwide</p>
+                <p>Across 80+ countreis</p>
+
+            </div>
+
+            <div class="stat">
+
+                <h2>11<span class="para">%</span></h2>
+
+                <p>Avg. Productivity Gain</p>
+                <p>Measured in first 30 days</p>
+
+            </div>
+
+            <div class="stat">
+
+                <h2>34.3<span class="para">%</span></h2>
+
+                <p>Uptime SLA</p>
+                <p>Guaranted and monitored</p>
+
+            </div>
+
+            <div class="stat">
+
+                <h2>6<span class="para">h</span></h2>
+
+                <p>Saved Per Team Weekly</p>
+                <p>On average across all plans</p>
+
+            </div>
+
         </div>
     </div>
 </body>
