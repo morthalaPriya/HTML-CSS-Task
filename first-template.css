@@ -5,7 +5,11 @@ body {
     background-color: #eef8f6;
 }
 
-
+.bg-nav{
+    background-color: #eef8f6;
+    padding-top:20px;
+    padding-bottom:20px;
+}
 
 .logo {
     font-size: 30px;
@@ -13,34 +17,43 @@ body {
     color: #0f766e !important;
 }
 
-.nav-link {
-    color: #555 !important;
-    margin-right: 20px;
-}
-
-.signin {
-    color: #000;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.trial-btn {
-    background-color: #0f766e;
-    color: white;
-    border-radius: 30px;
-    padding: 10px 25px;
+.nav-link{
+    color:#5f6666;
+    margin-right:35px;
+    font-size:15px;
+    font-weight:500;
 }
 
 .trial-btn:hover {
     color: white;
 }
 
+.edit{
+    color:black;
+}
 
+.signin{
+    color:#111;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:500;
+    margin-right:20px;
+}
+
+.trial-btn{
+    background-color:#0f766e;
+    color:white;
+    border-radius:30px;
+    width:170px;
+    height:50px;
+    border-width:0px;
+    font-weight:bold;
+}
 
 .hero-section {
     background-color: #eef8f6;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 100px;
 }
 
 .badge-box {
@@ -49,41 +62,43 @@ body {
     padding: 10px 20px;
     border-radius: 25px;
     font-size: 14px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }
 
-.main-heading {
-    font-size: 65px;
-    font-weight: bold;
-    color: #111;
-    line-height: 1.2;
+.start-btn:hover {
+    color: white;
 }
 
-.main-heading span {
-    color: #0f766e;
+.edit-1{
+    color:#0f766e;
+    font-weight: bold;
+}
+
+.main-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #112322;
+}
+
+.edit-2{
     font-style: italic;
 }
 
-.description {
-    color: gray;
-    font-size: 18px;
-    line-height: 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+.description{
+    color:#667575;
+    font-size:20px;
+    margin-top:25px;
+    margin-bottom:40px;
 }
-
-
 
 .start-btn {
     background-color: #0f766e;
     color: white;
     border-radius: 30px;
     padding: 12px 30px;
-}
-
-.start-btn:hover {
-    color: white;
+    width:230px;
+    height:40px;
 }
 
 .demo-btn {
@@ -91,9 +106,8 @@ body {
     border: 1px solid lightgray;
     border-radius: 30px;
     padding: 12px 30px;
+    color:#0f766e;
 }
-
-
 
 .small-text {
     font-size: 14px;
@@ -101,18 +115,8 @@ body {
     font-weight: 500;
 }
 
-
-
-.dashboard-card {
-    background-color: white;
-    border-radius: 25px;
-    padding: 30px;
-    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
-}
-
-
-.top-dots {
-    margin-bottom: 20px;
+.dot-container{
+    background-color: #caf5ec;
 }
 
 .dot {
@@ -135,32 +139,50 @@ body {
     background-color: #28c840;
 }
 
-
+.dashboard-card {
+    background-color: white;
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
 
 .graph-box {
     display: flex;
-    justify-content: space-between;
+    
     align-items: flex-end;
     height: 180px;
     margin-top: 30px;
+    
 }
 
 .bar {
     width: 45px;
     background-color: #0f766e;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
+    border-color: #d0f1ee;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 20px;
 }
 
 .b1 {
-    height: 60px;
+    height: 40px;
+    background-color: #cdd2d2;
+
 }
 
 .b2 {
-    height: 90px;
+    height: 60px;
+    background-color: #cdd2d2;
+
 }
 
 .b3 {
-    height: 120px;
+    height: 50px;
+    background-color: #cdd2d2;
 }
 
 .b4 {
@@ -168,26 +190,29 @@ body {
 }
 
 .b5 {
-    height: 140px;
+    height: 55px;
+    background-color: #cdd2d2;
 }
+
 
 .b6 {
-    height: 170px;
+    height: 90px;
 }
 
-
-
-.dashboard-card h4 {
-    font-weight: bold;
-    color: #111;
+.b7{
+    height:65px;
+    background-color: #cdd2d2;
 }
 
-.dashboard-card p {
-    color: gray;
-    font-size: 13px;
+.b8{
+    height:100px;
 }
 
-
+.card-container{
+    background-color: #eef8f6;
+    border-radius: 20px;
+    padding:5px;
+}
 
 .company-section {
     background-color: white;
@@ -195,53 +220,41 @@ body {
     padding-bottom: 50px;
 }
 
-.company-section h6 {
-    color: gray;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-.company-section .col-md-2 {
-    color: gray;
-    font-size: 18px;
-    font-weight: bold;
-}
 
 
 
-@media screen and (max-width:768px) {
 
-    .hero-section {
-        text-align: center;
-    }
 
-    .main-heading {
-        font-size: 42px;
-    }
 
-    .description {
-        font-size: 16px;
-    }
 
-    .start-btn,
-    .demo-btn {
-        width: 100%;
-        margin-top: 15px;
-    }
 
-    .dashboard-card {
-        margin-top: 40px;
-    }
 
-    .graph-box {
-        height: 130px;
-    }
 
-    .bar {
-        width: 25px;
-    }
 
-    .company-section .col-md-2 {
-        margin-bottom: 20px;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
