@@ -1,0 +1,121 @@
+.bg-container{
+    background-color:#eef8f6;
+    min-height:100vh;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.button-1{
+    background-color:#dff5f1;
+    color:#14796d;
+    border-width:0px;
+    border-radius:20px;
+    width:80px;
+    height:28px;
+    font-size:11px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.main-heading{
+    font-size:58px;
+    font-weight:bold;
+    color:#0f1f1d;
+    margin-bottom:25px;
+}
+
+.edit{
+    color:#1d8578;
+    font-style:italic;
+    font-family:"Playfair Display", serif;
+}
+
+.description{
+    color:#697776;
+    font-size:16px;
+    margin-bottom:40px;
+}
+
+.expand{
+    color:#17796d;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.para{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid #d8e3e1;
+    padding-top:22px;
+    padding-bottom:22px;
+    color:black;
+}
+
+.plus{
+    width:28px;
+    height:28px;
+    border:1px solid #cfdedb;
+    border-radius:50%;
+    text-align:center;
+    color:#178274;
+    font-size:18px;
+}
+
+.bottom-card{
+    margin-top:120px;
+    background:linear-gradient(to right,#021917,#062f2c);
+    border-radius:22px;
+    padding:60px;
+}
+
+.bottom-card-button{
+    background-color:transparent;
+    border:1px solid #176e64;
+    color:#2cb3a3;
+    border-radius:20px;
+    width:170px;
+    height:30px;
+    font-size:11px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.bottom-card-heading{
+    font-size:55px;
+    font-weight:bold;
+    color:white;
+    margin-bottom:25px;
+}
+
+.text{
+    color:#a2b0ae;
+    font-size:16px;
+}
+
+.start-btn{
+    background-color:#1aa091;
+    color:white;
+    border-width:0px;
+    border-radius:30px;
+    width:210px;
+    height:55px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+.demo-btn{
+    background-color:transparent;
+    color:#d3dfdd;
+    border:1px solid #304543;
+    border-radius:30px;
+    width:210px;
+    height:55px;
+    font-size:15px;
+    border-color:#4b6662;
+}
+
+
+
+
+
