@@ -64,6 +64,7 @@ body {
     font-size: 14px;
     margin-bottom: 30px;
     box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    color:#0f766e;
 }
 
 .start-btn:hover {
@@ -86,7 +87,7 @@ body {
 }
 
 .description{
-    color:#667575;
+    color:#697776;
     font-size:20px;
     margin-top:25px;
     margin-bottom:40px;
@@ -98,7 +99,13 @@ body {
     border-radius: 30px;
     padding: 12px 30px;
     width:230px;
-    height:40px;
+    height:45px;
+}
+
+.icon{
+    color:#0f766e;
+    margin-right:8px;
+    font-size:14px;
 }
 
 .demo-btn {
@@ -111,12 +118,44 @@ body {
 
 .small-text {
     font-size: 14px;
-    color: gray;
     font-weight: 500;
+    color:#0f766e;
+    margin-right:8px;
 }
 
 .dot-container{
-    background-color: #caf5ec;
+    background-color:#e8f7f4;
+    padding:15px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.col-lg-6{
+    position:relative;
+}
+
+.growth-card{
+    position:absolute;
+    top:30px;
+    right:-20px;
+    z-index:10;
+    background-color: #0f766e;
+    border-radius: 20px;
+    color: white;
+    padding:8px;
+    font-size: 15px;
+}
+
+.notify-card{
+    position:absolute;
+    bottom:-20px;;
+    left:-5px;
+    z-index:10;
+    background-color: white;
+    border-radius: 20px;
+    width:200px;
+    height:80px;
+    padding:8px;
 }
 
 .dot {
@@ -218,6 +257,11 @@ body {
     background-color: white;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.bottom-para{
+    color:gray;
+    font-size: 15px;;
 }
 
 
