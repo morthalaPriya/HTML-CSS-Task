@@ -1,16 +1,16 @@
 .bg-color{ 
     margin: 0; 
-    padding: 0; 
+    padding:80px 0; 
     font-family: "DM Sans", sans-serif; 
     background-color: #eef8f6; 
     background-size: cover;
 }
 
-.main{
+.sixth-main{
     text-align: center;
 }
 
-.button-1{
+.sixth-button-1{
     background-color: #ccf7f1;
     color:#2a9d8f;
     border-radius: 30px;
@@ -21,21 +21,21 @@
     margin-bottom: 20px;
 }
 
-.main-heading{
+.sixth-main-heading{
     font-size: 30px;
     font-weight: bold; 
     color: #102321; 
     margin-bottom: 40px;
 }
 
-.edit{
+.sixth-edit{
     color: #1d8478; 
     font-family: "Playfair Display", serif; 
     font-style: italic; 
     font-weight: bold;
 }
 
-.button-2{
+.sixth-button-2{
     background-color: #ffffff; 
     padding: 5px; 
     border-radius: 30px; 
@@ -49,10 +49,10 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-.button-3{
+.sixth-button-3{
     width:150px;
 }
 
-.button-4{
+.sixth-button-4{
     width:95px;
 }

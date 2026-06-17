@@ -1,8 +1,19 @@
-body {
-    margin: 0;
-    padding: 0;
+html,
+body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.container{
+    max-width:1200px;
+}
+
+.first-bg-color {
+    padding:0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #eef8f6;
+   
 }
 
 .bg-nav{
@@ -11,7 +22,7 @@ body {
     padding-bottom:20px;
 }
 
-.logo {
+.nav-logo {
     font-size: 30px;
     font-weight: bold;
     color: #0f766e !important;
@@ -24,11 +35,7 @@ body {
     font-weight:500;
 }
 
-.trial-btn:hover {
-    color: white;
-}
-
-.edit{
+.logo-edit{
     color:black;
 }
 
@@ -52,8 +59,8 @@ body {
 
 .hero-section {
     background-color: #eef8f6;
-    padding-top: 90px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom:70px;
 }
 
 .badge-box {
@@ -76,7 +83,7 @@ body {
     font-weight: bold;
 }
 
-.main-heading {
+.first-main-heading {
     font-size: 50px;
     font-weight: bold;
     color: #112322;
@@ -84,16 +91,17 @@ body {
 
 .edit-2{
     font-style: italic;
+    font-family:"Playfair Display", serif;
 }
 
-.description{
+.first-description{
     color:#697776;
-    font-size:20px;
+    font-size:15px;
     margin-top:25px;
     margin-bottom:40px;
 }
 
-.start-btn {
+.first-start-btn {
     background-color: #0f766e;
     color: white;
     border-radius: 30px;
@@ -102,13 +110,7 @@ body {
     height:45px;
 }
 
-.icon{
-    color:#0f766e;
-    margin-right:8px;
-    font-size:14px;
-}
-
-.demo-btn {
+.first-demo-btn {
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 30px;
@@ -123,6 +125,12 @@ body {
     margin-right:8px;
 }
 
+.icon{
+    color:#0f766e;
+    margin-right:8px;
+    font-size:14px;
+}
+
 .dot-container{
     background-color:#e8f7f4;
     padding:15px;
@@ -130,35 +138,7 @@ body {
     border-top-right-radius:20px;
 }
 
-.col-lg-6{
-    position:relative;
-}
-
-.growth-card{
-    position:absolute;
-    top:30px;
-    right:-20px;
-    z-index:10;
-    background-color: #0f766e;
-    border-radius: 20px;
-    color: white;
-    padding:8px;
-    font-size: 15px;
-}
-
-.notify-card{
-    position:absolute;
-    bottom:-20px;;
-    left:-5px;
-    z-index:10;
-    background-color: white;
-    border-radius: 20px;
-    width:200px;
-    height:80px;
-    padding:8px;
-}
-
-.dot {
+.first-dot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
@@ -178,6 +158,22 @@ body {
     background-color: #28c840;
 }
 
+.col-lg-6{
+    position:relative;
+}
+
+.growth-card{
+    position:absolute;
+    top:30px;
+    right:10px;
+    z-index:10;
+    background-color: #0f766e;
+    border-radius: 20px;
+    color: white;
+    padding:8px;
+    font-size: 15px;
+}
+
 .dashboard-card {
     background-color: white;
     border-top-left-radius:0px;
@@ -190,9 +186,8 @@ body {
 
 .graph-box {
     display: flex;
-    
     align-items: flex-end;
-    height: 180px;
+    height:200px;
     margin-top: 30px;
     
 }
@@ -233,7 +228,6 @@ body {
     background-color: #cdd2d2;
 }
 
-
 .b6 {
     height: 90px;
 }
@@ -247,10 +241,22 @@ body {
     height:100px;
 }
 
-.card-container{
+.first-card-container{
     background-color: #eef8f6;
     border-radius: 20px;
     padding:5px;
+}
+
+.notify-card{
+    position:absolute;
+    bottom:-20px;;
+    left:20px;
+    z-index:10;
+    background-color: white;
+    border-radius: 20px;
+    width:200px;
+    height:80px;
+    padding:8px;
 }
 
 .company-section {

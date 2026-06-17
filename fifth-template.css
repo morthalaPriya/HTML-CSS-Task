@@ -1,3 +1,8 @@
+.fifth-main {
+    background: #eaf5f3;
+    padding: 80px 0;
+}
+
 .background {
     margin: 0;
     padding: 0;
@@ -5,25 +10,19 @@
     background: #eaf5f3;
 }
 
-.main {
-    background: #eaf5f3;
-    padding: 80px 0;
-}
-
-
-.main-heading {
+.fifth-main-heading {
     font-size: 52px;
     font-weight: bold;
     color: #16211f;
 }
 
-.edit {
+.fifth-edit {
     color: #2a9d8f;
     font-style: italic;
     font-family: "Playfair Display", serif;
 }
 
-.paragraph-1 {
+.fifth-paragraph-1 {
     color: #6b7b78;
     margin-top: 15px;
     font-size: 16px;
@@ -48,9 +47,8 @@
     margin-bottom: 18px;
 }
 
-.text {
+.fifth-text {
     color: #687775;
-    line-height: 1.9;
     font-size: 15px;
     font-style: italic;
 }
@@ -85,16 +83,12 @@
     font-size: 12px;
 }
 
-.row {
-    margin-bottom: 10px;
-}
-
-.main-heading {
+.fifth-main-heading {
         font-size: 36px;
     }
 
 .large-card {
-        min-height: auto;
+        min-height:580px;
     }
 
 .review-card {

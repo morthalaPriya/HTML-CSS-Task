@@ -1,14 +1,13 @@
 .bg-color{
     background-color:#eef8f6;
-    background-size: cover;
+     padding:80px 0;
 }
 
-.main{
+.third-main{
     text-align:center;
-    padding:20px;
 }
 
-.button-1{
+.third-button-1{
     border-radius:20px;
     background-color:#E7F3F1;
     color:#2A9D8F;
@@ -18,29 +17,30 @@
     margin-top:10px;
     margin-bottom:10px;
     font-weight:bold;
+    border-style: none;
 }
 
-.dot{
-    font-weight:bold;
+.third-dot{
+    font-weight:2000px;
 }
   
 .heading-1{
-    font-size:40px;
+    font-size:45px;
     font-weight:bold;
     color:black;
-    font-family: "Playfair Display";
 }
 
 .design{
     color:#2c8b80;
     font-style:italic;
+    font-family:"Playfair Display", serif;
 }
 
-.paragraph-1{
+.third-paragraph-1{
     color:gray;
 }
  
-.para{
+.third-para{
     color:#2A9D8F;
     font-weight:normal;
     font-size:15px;
@@ -51,18 +51,18 @@
     font-weight:bold;
 }
 
-.card-container{
+.third-card-container{
     background-color:Whitesmoke;
     border-radius:15px;
-    padding:20px;
-   
+    padding:30px; 
 }
 
 .card-container-one{
     background-color:White;
     padding:8px;
     border-radius:10px;
-    width:500px;
+    flex:1;
+    min-width:0;
 }
 
 .paragraph-3{
@@ -70,7 +70,7 @@
     font-weight:bold;
 }
 
-.line {
+.third-line {
     width: 85%;
     height: 4px;
     background: #2c8b80;
@@ -92,30 +92,28 @@
     margin-bottom: 12px;
 }
 
-.button-3{
-    color:rgb(38, 143, 132);
-    background-color:#a1e8e0;
-    border-radius:20px;
-    border:none;
-    
-}
-
-.button-4{
-    background-color:#dbebe9;
-    border-radius:20px;
-    color:rgb(158, 155, 155);
-    border:none;
-}
-
 .bottom {
     background: white;
     border-radius: 20px;
     padding: 15px;
 }
 
+.third-button-3{
+    color:rgb(38, 143, 132);
+    background-color:#caf9f3;
+    border-radius:20px;
+    border:none;
+    padding:2px;
+    width:80px;
+}
 
-
-
+.third-button-4{
+    background-color:#dbebe9;
+    border-radius:20px;
+    color:rgb(158, 155, 155);
+    border:none;
+    width:95px;
+}
 
 .curve{
     font-style:italic;
@@ -124,7 +122,6 @@
 ul li{
     list-style-type:none;
 }
-
 
 .online-users{
     display:flex;
@@ -173,16 +170,27 @@ ul li{
 
 .last {
     text-align: center;
+    gap:0;
 }
 
-.last h2 {
-    font-size: 48px;
-    margin-bottom: 10px;
+.stat-h{
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
 }
 
-.last p {
-    color:black;
-    font-size: 14px;
+.stat-p{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
+.stat-p-1{
+    color:gray;
+}
+
+.third-para-1{
+    color:#0f766e;
+    font-size:25px;
+}
 
